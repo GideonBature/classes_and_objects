@@ -13,6 +13,7 @@
 #Bob.add_track("UI/UX")
 #Bob.get_score()
 
+#class keyword
 class Student:
     # [assignment] Skeleton class. Add your code here
 
@@ -27,34 +28,29 @@ class Student:
 
         pass
 
-    #Methods
+    #methods
     def change_name(self, name):
-        return ("Gideon Bature")
+        return (print(name))
 
     def change_age(self, age):
-        return (24)
+        return (print(age))
 
     def add_tracks(self, tracks):
-        return (["Frontend", "Backend"])
+        return (print(tracks))
 
     def get_score(self, score):
-        return (20.9)
+        return (print(score))
 
-
-
-Bob = Student("Bob", 26, ["FE","BE"], 20.90)
-
-#print(Bob.age)
-#print(Bob.tracks)
-#print(Bob.score)
+#Bob = Student("Peter", 34, ["UI/UX"], Bob1.score)
 
 # Expected methods
-info1 = Bob.change_name("Peter")
-info2 = Bob.change_age(34)
-info3 = Bob.add_tracks("UI/UX")
-info4 = Bob.get_score(20.90)
+#Bob.change_name("Peter")
+#Bob.change_age(34)
+#Bob.add_track("UI/UX")
+#Bob.get_score()
 
-print(info1)
-print(info2)
-print(info3)
-print(info4)
+#output
+Bob.change_name("Peter")
+Bob.change_age(34)
+Bob.add_tracks(["Frontend", "Backend", "UI/UX"])
+Bob.get_score(Bob.score)
