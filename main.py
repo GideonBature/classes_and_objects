@@ -41,7 +41,7 @@ class Student:
     def get_score(self, score):
         return (print(score))
 
-#Bob = Student("Peter", 34, ["UI/UX"], Bob1.score)
+Bob = Student(name="Bob", age=26, tracks=["FE","BE"],score=20.90)
 
 # Expected methods
 #Bob.change_name("Peter")
